@@ -11,6 +11,7 @@ echo "sudo wget -qO - https://raw.githubusercontent.com/turtlebot/turtlebot4_set
 if [ ! -d "$TARGET_DIR" ]; then
    echo "Directory $TARGET_DIR does not exits. Creating $TARGET_DIR."
    echo mkdir -p "$TARGET_DIR"
+   mkdir -p "$TARGET_DIR"
 fi
 
 echo "Moving $FILE_NAME to $TARGET_DIR"
@@ -29,12 +30,5 @@ else
   echo "$ALIAS_COMMAND"  >> "$ALIAS_FILE"
   echo "Alias added. You can now use '$ALIAS_NAME' to run your script."
 fi
-
-
-
-
-echo "echo 'hello'" >> ~/.bashrc
-echo "$ALIAS_COMMAND" >> ~/.bashrc
-
 
 
