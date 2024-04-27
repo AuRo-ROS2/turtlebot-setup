@@ -1,7 +1,7 @@
 
 # turtlebot-setup
 
-A collection of tool and wrappers that help us build fast on the turtlebot 4 platform
+A collection of tools and wrappers that help us build fast on the turtlebot 4 platform
 
 ## Tool List
 
